@@ -1,0 +1,180 @@
+[28-Apr-2021 10:22:39 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 18
+[28-Apr-2021 10:34:39 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 18
+[28-Apr-2021 11:01:49 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 18
+[28-Apr-2021 11:01:54 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 18
+[28-Apr-2021 11:06:03 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 20
+[28-Apr-2021 11:08:05 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 20
+[28-Apr-2021 11:08:33 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[28-Apr-2021 11:12:32 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 20
+[28-Apr-2021 11:13:09 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[28-Apr-2021 17:47:20 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[28-Apr-2021 17:48:13 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[28-Apr-2021 19:16:08 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[28-Apr-2021 19:19:01 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[28-Apr-2021 19:19:23 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[28-Apr-2021 19:19:47 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[30-Apr-2021 16:20:19 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[01-May-2021 12:13:44 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 20
+[01-May-2021 12:14:11 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[01-May-2021 12:17:55 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[01-May-2021 12:23:36 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[01-May-2021 15:31:13 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 20
+[01-May-2021 15:47:50 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 20
+[01-May-2021 15:48:45 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[01-May-2021 16:01:55 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[02-May-2021 09:23:56 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:23:56 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:23:56 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:23:57 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[02-May-2021 09:24:17 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:24:17 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:24:17 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:24:17 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[02-May-2021 09:26:27 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:26:27 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:26:27 Asia/Kolkata] PHP Notice:  Undefined variable: order in /home/kanaico1/apps.cyberox.in/payment/index.php on line 28
+[02-May-2021 09:26:28 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be atleast INR 1.00 in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[02-May-2021 09:27:51 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''];' (T_CONSTANT_ENCAPSED_STRING) in /home/kanaico1/apps.cyberox.in/payment/index.php on line 47
+[02-May-2021 09:27:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''];' (T_CONSTANT_ENCAPSED_STRING) in /home/kanaico1/apps.cyberox.in/payment/index.php on line 47
+[03-May-2021 11:45:36 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be an integer. in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[03-May-2021 11:46:55 Asia/Kolkata] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: The amount must be an integer. in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php:120
+Stack trace:
+#0 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(90): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php(44): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(59): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/kanaico1/apps.cyberox.in/payment/index.php(43): Razorpay\Api\Order->create(Array)
+#6 {main}
+  thrown in /home/kanaico1/apps.cyberox.in/payment/razorpay-php/src/Request.php on line 120
+[03-May-2021 11:48:31 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[03-May-2021 11:52:48 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[03-May-2021 19:54:32 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[05-May-2021 13:22:49 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 10:04:22 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 10:52:27 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 10:53:40 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 10:56:43 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 10:59:42 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:01:30 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:02:38 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:03:58 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:04:41 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:06:09 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:11:44 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:14:15 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:15:59 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:18:43 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:34:23 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[07-May-2021 11:38:29 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
+[09-May-2021 09:45:16 Asia/Kolkata] PHP Notice:  Undefined index: cid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 20
+[09-May-2021 09:45:18 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/kanaico1/apps.cyberox.in/payment/index.php on line 167
+[10-May-2021 21:27:16 Asia/Kolkata] PHP Notice:  Undefined index: pid in /home/kanaico1/apps.cyberox.in/payment/config.php on line 4
